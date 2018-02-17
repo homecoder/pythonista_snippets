@@ -1,4 +1,4 @@
-#Pythonista Snippets
+# Pythonista Snippets
 
 This repository contains snippets of code that I have created for Pythonista.
 
@@ -23,3 +23,13 @@ Note: It creates a transparent view which covers the entire superview of the com
 Example provided at the bottom of the file.
 
 The checkbox class is also quite simple, it is a view which wraps a button which switches between two images (unchecked, and checked) with access methods to get the state.
+
+## License
+
+The code here is licensed under the MIT License.  See the LICENSE file for more information.
+
+## Open Source Word
+
+I love open source, if you profit from any of my code at any point, and you can't release or contribute back to the open source community, please make a donation to a charity in need.
+
+You are under absolutely no obligation to; and I have chosen the MIT license for that very reason, no obligation. However, you should, and you know it.
