@@ -2,6 +2,12 @@
 # -*- coding: utf-8 -*-
 
 """
+Portions Copyright 2017 Michael Ruggiero
+
+The original author did not leave copyright information, in accordance with the MIT License, you must leave the above copyright information in-tact.
+
+If you are or know the original author, please create an issue with a method for me to get in contact with you to add the appropriate recognition.
+
 Created on Sun Mar 08 15:29:00 2015
 
 Prompt for a GitHub user name, the name of a repo, and download it.
