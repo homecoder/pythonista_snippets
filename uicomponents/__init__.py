@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """
+Copyright 2017-2018 Michael Ruggiero <michael@ruggiero.co>
+
 Custom Pythonista ui view types:
   * "Drop Down" Style list box
   * Checkbox
