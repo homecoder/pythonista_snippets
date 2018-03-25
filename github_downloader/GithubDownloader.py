@@ -126,8 +126,8 @@ class GetRepo (object):
         
         
         if new:
-            user = new['user']
-            repo = new['repo']
+            user = str(new['user']).strip()
+            repo = str(new['repo']).strip()
             url_format = 'https://www.github.com/{user}/{repo}/archive/master.zip'
             url = url_format.format(user=user, repo=repo)
             title = '{}/{}'.format(user,repo)
