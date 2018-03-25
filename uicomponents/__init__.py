@@ -444,5 +444,25 @@ if __name__ == '__main__':
     items = items + items
     dd = DropdownListView(items)
     dd.frame = (15, 10, 220, 32)
+    
+    # Add checkbox
+    
+    w, _ = ui.get_window_size()
+    check1 = uiCheckbox('love_python',text='I love Python')
+    check2 = uiCheckbox('is_nerdy', text='I am kind of nerdy..')
+    check3 = uiCheckbox('hate_coding', text='I Hate Coding')
+    check2.y = (check1.height + 10)
+    check3.y = (check2.y + check2.height + 5)
+    
+    checkbox_holder = ui.View(
+        frame=(5, 100, (w-10), 250),
+        border_width=.5,
+        background_color='#eeeeee'
+    )
+    checkbox_holder.add_subview(check1)
+    checkbox_holder.add_subview(check2)
+    checkbox_holder.add_subview(check3)
+    
+    v.add_subview(checkbox_holder)
     v.add_subview(dd)
     v.present()
