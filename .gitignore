@@ -134,3 +134,5 @@ Temporary Items
 
 .venv
 venv
+
+*.icloud
