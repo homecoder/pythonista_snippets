@@ -25,10 +25,11 @@ try:
     import ui
 except ImportError:
     from .mobile_bridge import ui
-
     pass
 
 from six import text_type
+
+# TODO: Put all this into a module already
 
 # TODO: Setup Simple (no bg button) style
 # TODO: Figure out how to set styles
@@ -39,6 +40,11 @@ from six import text_type
 """
   * Make it able to drop "up" if the button is below 50%
 """
+
+# Import other files
+
+from tabview import TabView, TabButton
+from cache import CacheView, CacheJSONEncoder
 
 
 class TouchPanelView(ui.View):
