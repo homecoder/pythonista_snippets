@@ -78,10 +78,10 @@ vertical line adapted from https://github.com/python-pillow/Pillow/issues/367
 
 import ui
 import re
-from cache import CacheView    # Cache the view state TODO:
 from six import text_type
 from six import BytesIO
 from PIL import Image, ImageDraw
+from .cache import CacheView # Not implemented yet
 
 class AnimateView (object):
     """
@@ -151,7 +151,7 @@ class AnimateView (object):
         assert isinstance(self.view, ui.View)
         assert isinstance(self.superview, ui.View)
         
-        # Keeping this for a kater thought
+        # Keeping this for a later thought
         self._siblings_cp()
         
         self.view.y -= self.superview.height
@@ -743,6 +743,8 @@ class TabView(ui.View):
             img = img.with_rendering_mode(ui.RENDERING_MODE_ORIGINAL)
             return img
 
+
+__all__ = ['TabView', 'TabButton']
 
 if __name__ == '__main__':
     """

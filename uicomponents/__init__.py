@@ -43,8 +43,8 @@ from six import text_type
 
 # Import other files
 
-from tabview import TabView, TabButton
-from cache import CacheView, CacheJSONEncoder
+from .tabview import TabView, TabButton
+from .cache import CacheView, CacheJSONEncoder
 
 
 class TouchPanelView(ui.View):

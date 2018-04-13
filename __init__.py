@@ -14,6 +14,7 @@ To do:
 """
 
 from utility import airprint
+from uicomponents import TabView, TabButton
 
 
 __all__ = ['airprint']
